@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transneftpua_db
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    properties:
+      hibernatc:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+    #sql:
+    # init:
+    #   plat
